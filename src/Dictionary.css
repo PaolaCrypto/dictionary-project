@@ -1,3 +1,19 @@
-.dictionary {
-  background-color: blue;
+.Dictionary section {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px;
+  margin: 20px;
+}
+
+.Dictionary input {
+  width: 100%;
+  border-radius: 6px;
+  padding: 5px 5px;
+  border: 1px solid #ddd;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin: 5px;
 }
